@@ -21,5 +21,5 @@ This Python script allows you to send multiple emails using Gmail's SMTP server.
 
    - Clone this repository or download the `emailsender.py` file.
    - Open a terminal or command prompt and navigate to the directory containing `emailsender.py`.
-   - Run the script by executing `python send_emails.py`.
+   - Run the script by executing `emailsender.py`.
    - Follow the prompts to enter the necessary information: target's Gmail, your Gmail, app password, subject, message, and the number of times to send the email.
