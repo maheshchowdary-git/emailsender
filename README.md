@@ -6,11 +6,11 @@ This Python script allows you to send multiple emails using Gmail's SMTP server.
 
 1. **Setting up App Password for Gmail**:
 
-   To use this script, you need to set up an app password for your Gmail account. Follow these steps:
+   To use this script, you need to set up an app password for your Gmail account.Make sure that you have Google 2-Step verification turned on and follow these steps:
 
    - Go to your Google Account settings: [Google Account](https://myaccount.google.com/)
    - Navigate to "Security" on the left sidebar.
-   - Scroll down to "Signing in to Google" and click on "App passwords".
+   - Scroll down to "Signing in to Google" and click on "2-Step verification" and then scroll down to "App passwords".
    - You may need to enter your Gmail password again for verification.
    - Under "Select app", choose "Mail" and under "Select device", choose "Other (custom name)".
    - Enter a name for the custom name (e.g., "Python Email Sender") and click on "Generate".
