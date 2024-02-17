@@ -1,4 +1,4 @@
-# Email Sender App
+# Email Spam Sender App
 
 This Python script allows you to send multiple emails using Gmail's SMTP server.
 
