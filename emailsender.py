@@ -7,7 +7,7 @@ username = input("Enter your mail id:")
 password = input("Enter your mail password: ")
 subject = input("Enter subject: ")
 message = input("Enter message: ")
-def gmail_otp():
+def send_email():
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
     msg = EmailMessage()
@@ -19,10 +19,10 @@ def gmail_otp():
     s.send_message(msg)
     s.quit()
 
-number_of_mails = int(input("Enter how many times you want to send the mail : "))
+number_of_mails = int(input("Enter how many times you want to send this mail : "))
 i=0
 while(i < number_of_mails):
-    gmail_otp()
+    send_email()
     i += 1
 
 
